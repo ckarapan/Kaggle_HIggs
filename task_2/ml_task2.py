@@ -15,7 +15,7 @@ from keras.optimizers import Adam
 #%%
 
 #import the data set:
-higgs = pd.read_csv('/home/trolletarian/Downloads/atlas-higgs-challenge-2014-v2.csv', \
+higgs = pd.read_csv('atlas-higgs-challenge-2014-v2.csv', \
                     delimiter=",")
 
 #select the training data set based on KaggleSet values 't'
